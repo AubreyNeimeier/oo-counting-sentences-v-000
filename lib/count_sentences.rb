@@ -18,6 +18,6 @@ class String
     self.split(/[\.?!]/).reject {|x| x.empty?}.count
     #avis'
     #self.split(/\.|\?|\!/).delete_if {|w| w.size < 2}.size
-    #chose between length/size/count
+    #chose between length/size is an alias for length/count
   end
 end
